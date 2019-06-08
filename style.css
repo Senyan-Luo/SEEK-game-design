@@ -77,3 +77,34 @@ span {
   top: 6.3em;
   left: 52%;
 }
+
+#team{
+  text-align: center;
+  margin-top: 1em;
+}
+
+#team ul.nav {
+  display: inline-flex;
+}
+#team ul.nav li {
+  display: inline;
+}
+.designer-statement{
+  text-align: left;
+  letter-spacing: 0.1em;
+  margin-top: 1em;
+}
+
+.carousel {
+  width:50%;
+  height: 50%;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  padding: 0.7em;
+}
+
+img {
+  height: 50%;
+} 

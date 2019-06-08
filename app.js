@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     //hero text animation borrowed from Joseph Martucci's contribution on Codepen
     var $orbs = $('.orbs span');
     $('.end-right').css('left', '-10%');
@@ -17,7 +18,7 @@ $(document).ready(function () {
     }, 'easeOutExpo', 1200);
     $('.end-left').velocity({
         left: '50%'
-    }, 'easeOutExpo', 1200);
+    }, 'easeOutExpo', 2000);
 
 
     dropOrbs = function () {
@@ -30,7 +31,7 @@ $(document).ready(function () {
         }, 1000).css('position', 'relative');
         orb = orb + 1;
         if (orb < numOrbs) {
-            setTimeout(dropOrbs, 100);
+            setTimeout(dropOrbs, 150);
         } else {
             setTimeout(function () {
                 $('.glow').velocity({
@@ -42,5 +43,7 @@ $(document).ready(function () {
 
     }
 
-    setTimeout(dropOrbs, 400);
+    setTimeout(dropOrbs, 600);
+
+   
 });
