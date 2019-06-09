@@ -113,7 +113,7 @@ span {
   padding: 0.7em;
 }
 
-img {
+.carousel-item > img {
   height: 50%;
 } 
 
@@ -139,4 +139,23 @@ img {
 
 a.nav-link{
   color:black;
+}
+
+.card-text{
+  text-align: left;
+}
+
+.card-group{
+  padding: 0 8em;
+}
+
+h2{
+  letter-spacing: 0.18em;
+  font-weight: 400;
+  color: rgb(90, 85, 85);
+}
+h4{
+  letter-spacing: 0.18em;
+  font-weight: 300;
+  color: grey;
 }
