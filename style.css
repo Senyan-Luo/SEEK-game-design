@@ -91,6 +91,7 @@ span {
   min-height: 60vh;
 }
 
+
 #team ul.nav {
   display: inline-flex;
 }
@@ -99,10 +100,17 @@ span {
 }
 
 .roles{
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.1em;
   margin-top: 1em;
   font-weight: 500;
+}
+
+#doc{
+  letter-spacing: 0.1em;
+  margin-top: 3.5em;
+  font-weight: 500;
+  text-align: center;
 }
 
 .designer-statement{
@@ -228,4 +236,8 @@ h4{
 
 #rules{
   margin-bottom: 3em;
+}
+
+.review{
+  list-style-type: square;
 }
