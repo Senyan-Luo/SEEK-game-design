@@ -1,3 +1,10 @@
+html{
+  width: 100%;
+}
+
+body{
+  width:100%;
+}
 * {
   box-sizing: border-box;
 }
@@ -55,6 +62,7 @@ span {
   display: block;
   font-size: 8em;
   position: relative;
+  
 }
 .orbs span {
   color: red;
@@ -64,12 +72,16 @@ span {
   text-shadow: 0 0 20px orange, 1px 1px 20px orange, 2px 2px 20px orange, -1px -1px 20px orange, -2px -2px 20px orange;
   position: absolute;
   left: 50%;
+ 
 }
+
+
 .orbs span:first-child {
   margin-left: -200px;
 }
 .orbs span:not(:first-child) {
   margin-left: -35px;
+  
 }
 
 .glow {
@@ -199,9 +211,7 @@ a.nav-link{
   text-align: left;
 }
 
-.card-group{
-  padding: 0 8em;
-}
+
 
 h2{
   letter-spacing: 0.18em;
@@ -240,4 +250,24 @@ h4{
 
 .review{
   list-style-type: square;
+}
+
+@media only screen and (max-width: 750px) {
+  .orbs {
+    font-size: 5em;
+    letter-spacing: 5px;
+  }
+  .end-left {
+    margin-left: -5em;
+  }
+  .hero{
+    height: 45vh;
+  }
+  .glow{
+    left:60%
+  }
+  .orbs span:first-child {
+    margin-left: -2em;
+    margin-top: 0.5em;
+}
 }
