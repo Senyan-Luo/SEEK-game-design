@@ -20,6 +20,9 @@
   font-style: italic;
 }
 
+#myTab{
+  margin-top: 1em;
+}
 
 span {
   margin: 0;
@@ -126,11 +129,19 @@ figcaption{
 height: 60%;
 width: 60%;
 }
+#game-details > section .game-img-2 > img{
+  height: 50%;
+  width: 40%;
+  }
 
 .process{
   letter-spacing: 0.1em;
+  margin-top: 1em;
 }
-
+#feedback-1{
+  letter-spacing: 0.07em;
+  color:gray;
+}
 .iterations{
   margin-bottom: 3em;
 }
@@ -142,9 +153,11 @@ width: 60%;
   
 }
 
-.carousel-inner {
-  padding: 0.7em;
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: orange;
+  padding: 1em;
 }
+
 
 .carousel-item > img {
   height: 50%;
@@ -187,13 +200,32 @@ h2{
   font-weight: 400;
   color: rgb(90, 85, 85);
 }
+h3{
+  letter-spacing: 0.18em;
+  font-weight: 300;
+  color: orange;
+  margin-bottom: 0;
+}
 h4{
   letter-spacing: 0.18em;
   font-weight: 300;
-  color: grey;
+  color: orange;
   margin-bottom: 1em;
 }
 
-/* #playtest{
- 
-} */
+#playtest{
+ margin: 0 5em 0;
+} 
+
+#playtest > section .game-img-3 >img{
+  height: 60%;
+  width: 60%;
+}
+
+.card-group{
+  margin-bottom: 2em;
+}
+
+#rules{
+  margin-bottom: 3em;
+}
