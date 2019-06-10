@@ -29,11 +29,14 @@
             <div class="collapse navbar-collapse collapse w-50 order-3 dual-collapse2" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">The Team</a>
+                        <a class="nav-link" href="#team">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#game">The Game</a>
+                        <a class="nav-link" href="#playtest">Game</a>
                     </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#game">Process</a>
+                        </li>
                 </ul>
             </div>
         </nav>
@@ -78,12 +81,16 @@
                 <a class="nav-link" id="andy-tab" data-toggle="tab" href="#andy" role="tab" aria-controls="andy"
                     aria-selected="false">Gookhyun Sung</a>
             </li>
+            <li class="nav-item">
+                    <a class="nav-link" id="statement-tab" data-toggle="tab" href="#statement" role="tab" aria-controls="statement"
+                        aria-selected="false">Designer Statement</a>
+                </li>
         </ul>
 
         <!-- Tab panes -->
         <div class="tab-content">
             <div class="tab-pane fade show active" id="senyan" role="tabpanel" aria-labelledby="senyan-tab">
-                <p class="roles">Team Lead | Senyan led the project, facilitated playtesting, and built this website to
+                <p class="roles">Senyan led the team throughout the design stages, facilitated playtesting, and built this website to
                     document the relay game.</p>
                 <p class="designer-statement">&emsp;<i class="fas fa-quote-left"></i>My research studies how four
                     pillars of learning from Cognitive Science can be used to design efficient serious games.<i
@@ -104,7 +111,7 @@
             </div>
             <div class="tab-pane fade" id="emily" role="tabpanel" aria-labelledby="emily-tab">
                 <p class="roles"></p>
-                <p class="designer-statement">&emsp;<i class="fas fa-quote-left"></i>hahahahah<i
+                <p class="designer-statement">&emsp;<i class="fas fa-quote-left"></i>My research paper is about how video gaming can have positive effects on kids with ASD. It has very little to do with our simulation design but I think they both share come core concepts. For example, they both express the importance of motor, cognitive, and social skills. In my paper, I explain how video games can aid in the overall performance of kids who typically lack in those areas. In our simulation, motor skills are vital in order to win because in order to win, the players have to balance the plate and run at the same time. Additionally, in both my paper and our simulation, there is a stress on communication. For many kids with autism, communication and social skills are always difficult to maintain and control. Video games can create virtual relationships with these kids to help with that. In our simulation, communication is vital because each team needs to know when to run and when to pass the plate. <i
                         class="fas fa-quote-right"></i></p>
             </div>
             <div class="tab-pane fade" id="andy" role="tabpanel" aria-labelledby="andy-tab">
@@ -123,20 +130,15 @@
                     before I do something, and simulation seems to be an important element that is needed everywhere.<i
                         class="fas fa-quote-right"></i></p>
             </div>
+            <div class="tab-pane fade" id="statement" role="tabpanel" aria-labelledby="statement-tab">
+                    <p class="roles">Our collaboratively written designer statement</p>
+                    <p align="center" target="_blank"><a href="#" class="btn btn-outline-warning btn-lg" role="button">Read</a></p>
+                </div>
         </div>
     </div>
 
-    <div id="game">
-        <div id="game-details">
-            <h2 class="text-center">Design Process</h2>
-            <h4 class="text-center">Ideation</h4>
-            <section id="ideation"></section>
-            
-            <h4 class="text-center">First Iteration</h4>
-            <section id="first-iteration"></section>
-            <h4 class="text-center">Second Iteration</h4>
-            <section id="second-iteration"></section>
-            
+    <div id="playtest">
+            <h2 class="text-center">The Game</h2>
             <h4 class="text-center">Final Playtesting</h4>
             <div class="card-group" align="center">
                 <section id="location" class="col-12 col-md-4">
@@ -227,6 +229,25 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div id="game">
+        <div id="game-details">
+            <h2 class="text-center">Design Process</h2>
+            <h4 class="text-center">Ideation</h4>
+            <section id="ideation" class="iterations">
+                <p class="process">&emsp;In our first brainstorming session, my team got excited about creating a game that can simulate some aspect of college life. Several great ideas were generated during the conversation, and all four of us came to a consensus that our simulation would address the strss college students experience. Senyan proposed a relay race that would simulate students who are trying to meet a deadline to turn in their research paper, and each of the participants will make independent choices that will decide how they run. Our team decided to build upon this simulaiton idea, and we used a whiteboard to design and iterate on the logistics.</p>
+                <div class="game-img" align="center"><img src="./images/sketch.jpg" align="center"><figcaption>A whiteboard snapshot that documents our ideation process. A, B, C and D represent four questions runners on a team need to answer individually, and every choice comes with its unique reward (+) and punishment (-). </figcaption></div>
+            </section>
+            
+            <h4 class="text-center">In-class playtesting & Feedback</h4>
+            <section id="second-iteration" class="iterations">
+                    <p class="process">&emsp;We playtested twice with peers from our discussion section and gained valuable insighes on game logistics that needed improvements. Based on participant feedback, we identified the some problems and proposed the following changes: 
+                        <ul>
+                            <li>The game needs to be more organized. The introduction at the beginning was </li>
+                        </ul>
+                    </p>
+            </section>
     </div>
 
     <script>

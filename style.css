@@ -6,6 +6,7 @@
   background-color: black;
   height: 65vh;
   width: 100%;
+  margin-bottom: 5em;
 }
 
 .navbar-brand{
@@ -15,6 +16,8 @@
 
 #brand-smaller{
   font-size: 0.5em;
+  font-family: 'Arvo', serif;
+  font-style: italic;
 }
 
 
@@ -80,7 +83,9 @@ span {
 
 #team{
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
+  margin-bottom: 5em;
+  min-height: 60vh;
 }
 
 #team ul.nav {
@@ -100,13 +105,41 @@ span {
 .designer-statement{
   text-align: left;
   letter-spacing: 0.1em;
-  margin-top: 0.5em;
+}
+
+.tab-content{
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+#game-details{
+  margin: 0 5em 0;
+}
+
+figcaption{
+  width: 60%;
+  text-align:left;
+  color: darkgray;
+}
+
+#game-details > section .game-img > img{
+height: 60%;
+width: 60%;
+}
+
+.process{
+  letter-spacing: 0.1em;
+}
+
+.iterations{
+  margin-bottom: 3em;
 }
 
 .carousel {
   width:50%;
   height: 50%;
-  margin: 0 auto;
+  margin: 2em auto;
+  
 }
 
 .carousel-inner {
@@ -158,4 +191,9 @@ h4{
   letter-spacing: 0.18em;
   font-weight: 300;
   color: grey;
+  margin-bottom: 1em;
 }
+
+/* #playtest{
+ 
+} */
