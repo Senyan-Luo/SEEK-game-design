@@ -11,7 +11,7 @@ body{
 
 .hero{
   background-color: black;
-  height: 65vh;
+  height: 45vh;
   width: 100%;
   margin-bottom: 5em;
 }
@@ -71,13 +71,13 @@ span {
   border-radius: 50%;
   text-shadow: 0 0 20px orange, 1px 1px 20px orange, 2px 2px 20px orange, -1px -1px 20px orange, -2px -2px 20px orange;
   position: absolute;
-  left: 50%;
+  left: 35.3%;
  
 }
 
 
 .orbs span:first-child {
-  margin-left: -200px;
+  /* margin-left: -200px; */
 }
 .orbs span:not(:first-child) {
   margin-left: -35px;
@@ -89,18 +89,17 @@ span {
   font-family: 'Arvo', serif;
   font-weight: 300;
   color: orange;
-  margin-left: -200px;
   font-size: 3em;
   position: absolute;
   top: 6.3em;
-  left: 52%;
+  left: 35.3%;
 }
 
 #team{
   text-align: center;
   margin-top: 2em;
   margin-bottom: 5em;
-  min-height: 60vh;
+
 }
 
 
@@ -135,9 +134,7 @@ span {
   margin-bottom: 5em;
 }
 
-#game-details{
-  margin: 0 5em 0;
-}
+
 
 figcaption{
   width: 60%;
@@ -146,13 +143,16 @@ figcaption{
 }
 
 #game-details > section .game-img > img{
-height: 60%;
-width: 60%;
+width: 100%;
 }
 #game-details > section .game-img-2 > img{
-  height: 50%;
-  width: 40%;
+  width: 100%;
   }
+
+.list-item{
+  margin-bottom: 7px;
+  list-style-type: square;
+}
 
 .process{
   letter-spacing: 0.1em;
@@ -222,26 +222,23 @@ h3{
   letter-spacing: 0.18em;
   font-weight: 300;
   color: orange;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 h4{
   letter-spacing: 0.18em;
   font-weight: 300;
   color: orange;
-  margin-bottom: 1em;
+  margin-bottom: 0px;
 }
 
-#playtest{
- margin: 0 5em 0;
-} 
 
 #playtest > section .game-img-3 >img{
-  height: 60%;
-  width: 60%;
+  width: 70%;
 }
 
 .card-group{
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 #rules{
